@@ -1,0 +1,59 @@
+name: Run Competitor News Pipeline
+
+on:
+  schedule:
+    # Runs at 9:00 AM UTC (2:30 PM IST) every day
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Grant write permissions to push the Excel database changes back to the repo
+      contents: write
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Pipeline
+      run: |
+        python src/main.py
+
+    - name: Commit and Push Database Update
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add output/raw_news_database.xlsx logs/scraper.log
+        
+        # Check if there are changes to commit before pushing
+        if git diff-index --quiet HEAD --; then
+          echo "No new news articles found. Database is up to date."
+        else
+          git commit -m "Automated database update: $(date -u +'%Y-%m-%d %H:%M:%S' -d "+5 hours +30 minutes") IST"
+          git push
+          echo "Database pushed successfully."
+        fi
+
+    - name: Trigger n8n Webhook (Optional Notification)
+      run: |
+        # Replace this URL with your actual n8n webhook URL
+        curl -X POST -H "Content-Type: application/json" \
+          -d '{"status": "success", "event": "News Pipeline Run Complete"}' \
+          https://n8n.mondee.com/webhook/miraee-news-update || true
