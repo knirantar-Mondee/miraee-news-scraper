@@ -56,4 +56,4 @@ jobs:
         # Replace this URL with your actual n8n webhook URL
         curl -X POST -H "Content-Type: application/json" \
           -d '{"status": "success", "event": "News Pipeline Run Complete"}' \
-          https://n8n.mondee.com/webhook/miraee-news-update || true
+          https://n8n.mondee.com/webhook-test/miraee-news-update || true
