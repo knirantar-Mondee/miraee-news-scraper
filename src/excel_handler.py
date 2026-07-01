@@ -4,7 +4,7 @@ import openpyxl
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from config.settings import (
-    RSS_FEEDS_FILE, COMPETITORS_FILE, SEARCH_QUERIES_FILE, DATABASE_FILE, OUTPUT_DIR
+    RSS_FEEDS_FILE, COMPETITORS_FILE, SEARCH_QUERIES_FILE, DATABASE_FILE, OUTPUT_DIR, BASE_DIR
 )
 from src.utils import logger
 
