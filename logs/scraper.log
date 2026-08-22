@@ -25187,3 +25187,236 @@ Install lxml[html-clean] or lxml_html_clean directly.. Fallback to BeautifulSoup
 2026-08-21 09:24:33,040 - INFO -  - Articles Enriched & Appended: 52
 2026-08-21 09:24:33,040 - INFO - Pipeline completed successfully.
 2026-08-21 09:24:33,040 - INFO - =========================================
+2026-08-22 09:14:10,457 - WARNING - Could not load newspaper3k or NLTK download failed: lxml.html.clean module is now a separate project lxml_html_clean.
+Install lxml[html-clean] or lxml_html_clean directly.. Fallback to BeautifulSoup only.
+2026-08-22 09:14:10,459 - INFO - =========================================
+2026-08-22 09:14:10,459 - INFO - Starting News Intelligence Data Pipeline
+2026-08-22 09:14:10,459 - INFO - =========================================
+2026-08-22 09:14:10,469 - INFO - Loaded 15 active RSS feeds out of 17 total.
+2026-08-22 09:14:10,486 - INFO - Loaded 17 competitors.
+2026-08-22 09:14:10,486 - INFO - Loaded query mappings for 17 competitors.
+2026-08-22 09:14:10,493 - INFO - Loaded brand mapping for 17 competitors.
+2026-08-22 09:14:10,493 - INFO - Targeting competitor news published after: 2026-08-21
+2026-08-22 09:14:10,494 - INFO - Generated 54 dynamic Google News RSS feeds for competitor queries.
+2026-08-22 09:14:10,494 - INFO - Fetching RSS feed: Navan News (https://news.google.com/rss/search?q=Navan+OR+TripActions+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:10,740 - INFO - Successfully fetched 5 articles from Navan News
+2026-08-22 09:14:12,242 - INFO - Fetching RSS feed: TravelPerk News (https://news.google.com/rss/search?q=TravelPerk+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:12,405 - INFO - Successfully fetched 0 articles from TravelPerk News
+2026-08-22 09:14:13,908 - INFO - Fetching RSS feed: SAP Concur News (https://news.google.com/rss/search?q=%22SAP+Concur%22+OR+%22Concur+Expense%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:14,093 - INFO - Successfully fetched 0 articles from SAP Concur News
+2026-08-22 09:14:15,595 - INFO - Fetching RSS feed: Ramp News (https://news.google.com/rss/search?q=%22Ramp+corporate+card%22+OR+%22Ramp+Expense%22+OR+%22Ramp+Financial%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:15,785 - INFO - Successfully fetched 0 articles from Ramp News
+2026-08-22 09:14:17,288 - INFO - Fetching RSS feed: Brex News (https://news.google.com/rss/search?q=Brex+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:17,469 - INFO - Successfully fetched 0 articles from Brex News
+2026-08-22 09:14:18,972 - INFO - Fetching RSS feed: AirBnb News (https://news.google.com/rss/search?q=Airbnb+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:19,295 - INFO - Successfully fetched 38 articles from AirBnb News
+2026-08-22 09:14:20,798 - INFO - Fetching RSS feed: TripGenie News (https://news.google.com/rss/search?q=TripGenie+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:20,985 - INFO - Successfully fetched 0 articles from TripGenie News
+2026-08-22 09:14:22,488 - INFO - Fetching RSS feed: Expedia News (https://news.google.com/rss/search?q=Expedia+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:22,788 - INFO - Successfully fetched 41 articles from Expedia News
+2026-08-22 09:14:24,291 - INFO - Fetching RSS feed: Booking.com News (https://news.google.com/rss/search?q=%22Booking.com%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:24,550 - INFO - Successfully fetched 12 articles from Booking.com News
+2026-08-22 09:14:26,053 - INFO - Fetching RSS feed: Sky Bird Travel News (https://news.google.com/rss/search?q=%22Sky+Bird+Travel%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:26,213 - INFO - Successfully fetched 0 articles from Sky Bird Travel News
+2026-08-22 09:14:27,715 - INFO - Fetching RSS feed: GTT Global News (https://news.google.com/rss/search?q=%22GTT+Global%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:27,877 - INFO - Successfully fetched 0 articles from GTT Global News
+2026-08-22 09:14:29,380 - INFO - Fetching RSS feed: Downtown Travel News (https://news.google.com/rss/search?q=%22Downtown+Travel%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:29,536 - INFO - Successfully fetched 0 articles from Downtown Travel News
+2026-08-22 09:14:31,038 - INFO - Fetching RSS feed: Expedia TAAP News (https://news.google.com/rss/search?q=%22Expedia+TAAP%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:31,206 - INFO - Successfully fetched 0 articles from Expedia TAAP News
+2026-08-22 09:14:32,709 - INFO - Fetching RSS feed: Booking.com for Travel Agents News (https://news.google.com/rss/search?q=%22Booking.com+for+Travel+Agents%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:32,907 - INFO - Successfully fetched 0 articles from Booking.com for Travel Agents News
+2026-08-22 09:14:34,410 - INFO - Fetching RSS feed: Priceline Partner Network News (https://news.google.com/rss/search?q=%22Priceline+Partner+Network%22+when:1d&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:34,571 - INFO - Successfully fetched 0 articles from Priceline Partner Network News
+2026-08-22 09:14:36,074 - INFO - Fetching RSS feed: Google News Search - Navan (Navan) (https://news.google.com/rss/search?q=%22Navan%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:36,309 - INFO - Successfully fetched 6 articles from Google News Search - Navan (Navan)
+2026-08-22 09:14:37,812 - INFO - Fetching RSS feed: Google News Search - Navan (TripActions) (https://news.google.com/rss/search?q=%22TripActions%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:38,035 - INFO - Successfully fetched 0 articles from Google News Search - Navan (TripActions)
+2026-08-22 09:14:39,538 - INFO - Fetching RSS feed: Google News Search - Navan (Navan Connect) (https://news.google.com/rss/search?q=%22Navan%20Connect%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:39,729 - INFO - Successfully fetched 0 articles from Google News Search - Navan (Navan Connect)
+2026-08-22 09:14:41,231 - INFO - Fetching RSS feed: Google News Search - Navan (Ariel Cohen) (https://news.google.com/rss/search?q=%22Ariel%20Cohen%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:41,434 - INFO - Successfully fetched 0 articles from Google News Search - Navan (Ariel Cohen)
+2026-08-22 09:14:42,937 - INFO - Fetching RSS feed: Google News Search - Navan (Ilan Twig) (https://news.google.com/rss/search?q=%22Ilan%20Twig%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:43,132 - INFO - Successfully fetched 0 articles from Google News Search - Navan (Ilan Twig)
+2026-08-22 09:14:44,634 - INFO - Fetching RSS feed: Google News Search - Navan (AI Travel Concierge) (https://news.google.com/rss/search?q=%22AI%20Travel%20Concierge%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:44,858 - INFO - Successfully fetched 0 articles from Google News Search - Navan (AI Travel Concierge)
+2026-08-22 09:14:46,361 - INFO - Fetching RSS feed: Google News Search - TravelPerk (TravelPerk) (https://news.google.com/rss/search?q=%22TravelPerk%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:46,548 - INFO - Successfully fetched 0 articles from Google News Search - TravelPerk (TravelPerk)
+2026-08-22 09:14:48,051 - INFO - Fetching RSS feed: Google News Search - TravelPerk (GreenPerk) (https://news.google.com/rss/search?q=%22GreenPerk%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:48,242 - INFO - Successfully fetched 0 articles from Google News Search - TravelPerk (GreenPerk)
+2026-08-22 09:14:49,744 - INFO - Fetching RSS feed: Google News Search - TravelPerk (Avi Meir) (https://news.google.com/rss/search?q=%22Avi%20Meir%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:49,947 - INFO - Successfully fetched 0 articles from Google News Search - TravelPerk (Avi Meir)
+2026-08-22 09:14:51,450 - INFO - Fetching RSS feed: Google News Search - TravelPerk (Zero-Touch Corporate Travel) (https://news.google.com/rss/search?q=%22Zero-Touch%20Corporate%20Travel%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:51,735 - INFO - Successfully fetched 0 articles from Google News Search - TravelPerk (Zero-Touch Corporate Travel)
+2026-08-22 09:14:53,238 - INFO - Fetching RSS feed: Google News Search - SAP Concur (SAP Concur) (https://news.google.com/rss/search?q=%22SAP%20Concur%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:53,487 - INFO - Successfully fetched 3 articles from Google News Search - SAP Concur (SAP Concur)
+2026-08-22 09:14:54,989 - INFO - Fetching RSS feed: Google News Search - SAP Concur (Concur) (https://news.google.com/rss/search?q=%22Concur%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:55,219 - INFO - Successfully fetched 2 articles from Google News Search - SAP Concur (Concur)
+2026-08-22 09:14:56,722 - INFO - Fetching RSS feed: Google News Search - SAP Concur (Charlie Li) (https://news.google.com/rss/search?q=%22Charlie%20Li%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:56,950 - INFO - Successfully fetched 0 articles from Google News Search - SAP Concur (Charlie Li)
+2026-08-22 09:14:58,453 - INFO - Fetching RSS feed: Google News Search - SAP Concur (Concur Expense AI) (https://news.google.com/rss/search?q=%22Concur%20Expense%20AI%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:14:58,654 - INFO - Successfully fetched 0 articles from Google News Search - SAP Concur (Concur Expense AI)
+2026-08-22 09:15:00,156 - INFO - Fetching RSS feed: Google News Search - Ramp (Ramp Card) (https://news.google.com/rss/search?q=%22Ramp%20Card%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:00,405 - INFO - Successfully fetched 1 articles from Google News Search - Ramp (Ramp Card)
+2026-08-22 09:15:01,908 - INFO - Fetching RSS feed: Google News Search - Ramp (Ramp Financial) (https://news.google.com/rss/search?q=%22Ramp%20Financial%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:02,154 - INFO - Successfully fetched 0 articles from Google News Search - Ramp (Ramp Financial)
+2026-08-22 09:15:03,657 - INFO - Fetching RSS feed: Google News Search - Ramp (Eric Glyman) (https://news.google.com/rss/search?q=%22Eric%20Glyman%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:03,877 - INFO - Successfully fetched 0 articles from Google News Search - Ramp (Eric Glyman)
+2026-08-22 09:15:05,380 - INFO - Fetching RSS feed: Google News Search - Ramp (Karim Atiyeh) (https://news.google.com/rss/search?q=%22Karim%20Atiyeh%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:05,568 - INFO - Successfully fetched 0 articles from Google News Search - Ramp (Karim Atiyeh)
+2026-08-22 09:15:07,071 - INFO - Fetching RSS feed: Google News Search - Ramp (Spend Control Automation) (https://news.google.com/rss/search?q=%22Spend%20Control%20Automation%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:07,297 - INFO - Successfully fetched 0 articles from Google News Search - Ramp (Spend Control Automation)
+2026-08-22 09:15:08,799 - INFO - Fetching RSS feed: Google News Search - Brex (Brex) (https://news.google.com/rss/search?q=%22Brex%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:09,068 - INFO - Successfully fetched 0 articles from Google News Search - Brex (Brex)
+2026-08-22 09:15:10,571 - INFO - Fetching RSS feed: Google News Search - Brex (Brex Card) (https://news.google.com/rss/search?q=%22Brex%20Card%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:10,760 - INFO - Successfully fetched 0 articles from Google News Search - Brex (Brex Card)
+2026-08-22 09:15:12,263 - INFO - Fetching RSS feed: Google News Search - Brex (Henrique Dubugras) (https://news.google.com/rss/search?q=%22Henrique%20Dubugras%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:12,462 - INFO - Successfully fetched 0 articles from Google News Search - Brex (Henrique Dubugras)
+2026-08-22 09:15:13,965 - INFO - Fetching RSS feed: Google News Search - Brex (Pedro Franceschi) (https://news.google.com/rss/search?q=%22Pedro%20Franceschi%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:14,146 - INFO - Successfully fetched 0 articles from Google News Search - Brex (Pedro Franceschi)
+2026-08-22 09:15:15,649 - INFO - Fetching RSS feed: Google News Search - Brex (AI Spend Controls) (https://news.google.com/rss/search?q=%22AI%20Spend%20Controls%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:15,896 - INFO - Successfully fetched 0 articles from Google News Search - Brex (AI Spend Controls)
+2026-08-22 09:15:17,399 - INFO - Fetching RSS feed: Google News Search - AirBnb (AirBnb) (https://news.google.com/rss/search?q=%22AirBnb%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:17,695 - INFO - Successfully fetched 38 articles from Google News Search - AirBnb (AirBnb)
+2026-08-22 09:15:19,198 - INFO - Fetching RSS feed: Google News Search - AirBnb (Airbnb Experiences) (https://news.google.com/rss/search?q=%22Airbnb%20Experiences%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:19,489 - INFO - Successfully fetched 2 articles from Google News Search - AirBnb (Airbnb Experiences)
+2026-08-22 09:15:20,992 - INFO - Fetching RSS feed: Google News Search - AirBnb (Brian Chesky) (https://news.google.com/rss/search?q=%22Brian%20Chesky%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:21,201 - INFO - Successfully fetched 5 articles from Google News Search - AirBnb (Brian Chesky)
+2026-08-22 09:15:22,704 - INFO - Fetching RSS feed: Google News Search - AirBnb (Hyperlocal Marketplace) (https://news.google.com/rss/search?q=%22Hyperlocal%20Marketplace%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:22,946 - INFO - Successfully fetched 0 articles from Google News Search - AirBnb (Hyperlocal Marketplace)
+2026-08-22 09:15:24,449 - INFO - Fetching RSS feed: Google News Search - TripGenie (TripGenie) (https://news.google.com/rss/search?q=%22TripGenie%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:24,646 - INFO - Successfully fetched 0 articles from Google News Search - TripGenie (TripGenie)
+2026-08-22 09:15:26,149 - INFO - Fetching RSS feed: Google News Search - TripGenie (Trip.com AI) (https://news.google.com/rss/search?q=%22Trip.com%20AI%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:26,406 - INFO - Successfully fetched 0 articles from Google News Search - TripGenie (Trip.com AI)
+2026-08-22 09:15:27,909 - INFO - Fetching RSS feed: Google News Search - TripGenie (James Liang) (https://news.google.com/rss/search?q=%22James%20Liang%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:28,124 - INFO - Successfully fetched 0 articles from Google News Search - TripGenie (James Liang)
+2026-08-22 09:15:29,627 - INFO - Fetching RSS feed: Google News Search - TripGenie (Jane Sun) (https://news.google.com/rss/search?q=%22Jane%20Sun%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:29,844 - INFO - Successfully fetched 0 articles from Google News Search - TripGenie (Jane Sun)
+2026-08-22 09:15:31,346 - INFO - Fetching RSS feed: Google News Search - TripGenie (Generative AI Itinerary) (https://news.google.com/rss/search?q=%22Generative%20AI%20Itinerary%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:31,564 - INFO - Successfully fetched 0 articles from Google News Search - TripGenie (Generative AI Itinerary)
+2026-08-22 09:15:33,066 - INFO - Fetching RSS feed: Google News Search - Expedia (Expedia) (https://news.google.com/rss/search?q=%22Expedia%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:33,322 - INFO - Successfully fetched 11 articles from Google News Search - Expedia (Expedia)
+2026-08-22 09:15:34,824 - INFO - Fetching RSS feed: Google News Search - Expedia (Expedia Group AI) (https://news.google.com/rss/search?q=%22Expedia%20Group%20AI%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:35,035 - INFO - Successfully fetched 0 articles from Google News Search - Expedia (Expedia Group AI)
+2026-08-22 09:15:36,538 - INFO - Fetching RSS feed: Google News Search - Expedia (Ariane Gorin) (https://news.google.com/rss/search?q=%22Ariane%20Gorin%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:36,737 - INFO - Successfully fetched 1 articles from Google News Search - Expedia (Ariane Gorin)
+2026-08-22 09:15:38,240 - INFO - Fetching RSS feed: Google News Search - Expedia (Conversational Booking Assistant) (https://news.google.com/rss/search?q=%22Conversational%20Booking%20Assistant%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:38,464 - INFO - Successfully fetched 0 articles from Google News Search - Expedia (Conversational Booking Assistant)
+2026-08-22 09:15:39,967 - INFO - Fetching RSS feed: Google News Search - Booking.com (Booking.com) (https://news.google.com/rss/search?q=%22Booking.com%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:40,261 - INFO - Successfully fetched 13 articles from Google News Search - Booking.com (Booking.com)
+2026-08-22 09:15:41,763 - INFO - Fetching RSS feed: Google News Search - Booking.com (AI Trip Planner) (https://news.google.com/rss/search?q=%22AI%20Trip%20Planner%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:42,019 - INFO - Successfully fetched 5 articles from Google News Search - Booking.com (AI Trip Planner)
+2026-08-22 09:15:43,522 - INFO - Fetching RSS feed: Google News Search - Booking.com (Glenn Fogel) (https://news.google.com/rss/search?q=%22Glenn%20Fogel%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:43,740 - INFO - Successfully fetched 1 articles from Google News Search - Booking.com (Glenn Fogel)
+2026-08-22 09:15:45,242 - INFO - Fetching RSS feed: Google News Search - Booking.com (Machine Learning Accommodation) (https://news.google.com/rss/search?q=%22Machine%20Learning%20Accommodation%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:45,450 - INFO - Successfully fetched 0 articles from Google News Search - Booking.com (Machine Learning Accommodation)
+2026-08-22 09:15:46,953 - INFO - Fetching RSS feed: Google News Search - Centrav (Centrav) (https://news.google.com/rss/search?q=%22Centrav%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:47,138 - INFO - Successfully fetched 0 articles from Google News Search - Centrav (Centrav)
+2026-08-22 09:15:48,641 - INFO - Fetching RSS feed: Google News Search - Centrav (B2B Private Air Fares) (https://news.google.com/rss/search?q=%22B2B%20Private%20Air%20Fares%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:48,850 - INFO - Successfully fetched 0 articles from Google News Search - Centrav (B2B Private Air Fares)
+2026-08-22 09:15:50,353 - INFO - Fetching RSS feed: Google News Search - Picasso Travel (Picasso Travel) (https://news.google.com/rss/search?q=%22Picasso%20Travel%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:50,577 - INFO - Successfully fetched 0 articles from Google News Search - Picasso Travel (Picasso Travel)
+2026-08-22 09:15:52,080 - INFO - Fetching RSS feed: Google News Search - Picasso Travel (Consolidator Ticketing API) (https://news.google.com/rss/search?q=%22Consolidator%20Ticketing%20API%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:52,282 - INFO - Successfully fetched 0 articles from Google News Search - Picasso Travel (Consolidator Ticketing API)
+2026-08-22 09:15:53,785 - INFO - Fetching RSS feed: Google News Search - Sky Bird Travel (Sky Bird Travel) (https://news.google.com/rss/search?q=%22Sky%20Bird%20Travel%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:54,055 - INFO - Successfully fetched 0 articles from Google News Search - Sky Bird Travel (Sky Bird Travel)
+2026-08-22 09:15:55,558 - INFO - Fetching RSS feed: Google News Search - Sky Bird Travel (Arvin Shah) (https://news.google.com/rss/search?q=%22Arvin%20Shah%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:55,747 - INFO - Successfully fetched 0 articles from Google News Search - Sky Bird Travel (Arvin Shah)
+2026-08-22 09:15:57,249 - INFO - Fetching RSS feed: Google News Search - GTT Global (GTT Global) (https://news.google.com/rss/search?q=%22GTT%20Global%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:57,450 - INFO - Successfully fetched 0 articles from Google News Search - GTT Global (GTT Global)
+2026-08-22 09:15:58,953 - INFO - Fetching RSS feed: Google News Search - Downtown Travel (Downtown Travel) (https://news.google.com/rss/search?q=%22Downtown%20Travel%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:15:59,198 - INFO - Successfully fetched 0 articles from Google News Search - Downtown Travel (Downtown Travel)
+2026-08-22 09:16:00,700 - INFO - Fetching RSS feed: Google News Search - Downtown Travel (The Flights Portal) (https://news.google.com/rss/search?q=%22The%20Flights%20Portal%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:16:00,954 - INFO - Successfully fetched 0 articles from Google News Search - Downtown Travel (The Flights Portal)
+2026-08-22 09:16:02,457 - INFO - Fetching RSS feed: Google News Search - Expedia TAAP (Expedia TAAP) (https://news.google.com/rss/search?q=%22Expedia%20TAAP%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:16:02,641 - INFO - Successfully fetched 0 articles from Google News Search - Expedia TAAP (Expedia TAAP)
+2026-08-22 09:16:04,144 - INFO - Fetching RSS feed: Google News Search - Expedia TAAP (Travel Agent Commission Engine) (https://news.google.com/rss/search?q=%22Travel%20Agent%20Commission%20Engine%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:16:04,394 - INFO - Successfully fetched 0 articles from Google News Search - Expedia TAAP (Travel Agent Commission Engine)
+2026-08-22 09:16:05,897 - INFO - Fetching RSS feed: Google News Search - Booking.com for Travel Agents (Booking.com for Travel Agents) (https://news.google.com/rss/search?q=%22Booking.com%20for%20Travel%20Agents%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:16:06,132 - INFO - Successfully fetched 0 articles from Google News Search - Booking.com for Travel Agents (Booking.com for Travel Agents)
+2026-08-22 09:16:07,634 - INFO - Fetching RSS feed: Google News Search - Priceline Partner Network (Priceline Partner Network) (https://news.google.com/rss/search?q=%22Priceline%20Partner%20Network%22%20after%3A2026-08-21&hl=en-US&gl=US&ceid=US:en)
+2026-08-22 09:16:07,889 - INFO - Successfully fetched 0 articles from Google News Search - Priceline Partner Network (Priceline Partner Network)
+2026-08-22 09:16:07,890 - INFO - Total articles aggregated across all feeds: 184
+2026-08-22 09:16:07,892 - INFO - Filtered 175 articles within past 24 hours from 184 total raw articles.
+2026-08-22 09:16:07,892 - INFO - Running competitor keyword matching...
+2026-08-22 09:16:07,990 - INFO - Matched 63 articles out of 175 filtered articles.
+2026-08-22 09:16:09,209 - INFO - Found 1283 existing URLs across all databases.
+2026-08-22 09:16:09,218 - INFO - Initialized Deduplicator with 1281 unique normalized URLs.
+2026-08-22 09:16:09,219 - INFO - Filtered out 32 duplicate articles from this run.
+2026-08-22 09:16:09,219 - INFO - New unique articles to scrape: 31 (Skipped duplicates: 32)
+2026-08-22 09:16:09,219 - INFO - Starting parallel scraping for 31 matched articles with 20 workers...
+2026-08-22 09:16:09,225 - INFO - Batch timeout threshold set to 300 seconds.
+2026-08-22 09:16:09,731 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMimAFBVV95cUxPb1g1eTUwV0lnTi1OTTYwdWJwRGNEVkJQMFRUUGF5TmwzVm1iVV9EZFR1OFVZXzdHbDRON2NRbXhFbmt2dmdqT0JnbFRkT19SUWlVUUVPS1ktZHFzWlAtYnU2VmZmbi1Ud2M3ODNWWW1wTmtqQldNdVhaX2N6b2hyWHRLZmNzVzR2QnZqT0g0YUw0S1VPNzRyMw?oc=5 -> https://finance.yahoo.com/technology/ai/articles/airbnb-abnb-turns-ai-customer-050857903.html
+2026-08-22 09:16:09,826 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMitgFBVV95cUxQUjdzb1ljdDZZcnBTOHQ5UTJrVHFwbDVUZkVZc050NXExaTFFaDB6RWtMcHFVZlkwdXIwbVU5QjVkLUM0aWZaLWpfNWVnSE53OXpMZzIwVm9uQWRnRTFXMEZnSzB1UTZ6cEVJOVhiSXlJLUtBTjFYNEVNWkZqeGRiM2JTLVFjQVpuRmd0d1k2LVJKNHNpaHk0cURvU09RRGpjVVpxTUFoMnMyWWtPN0lnZDZ5VmJlZw?oc=5 -> https://m.investing.com/news/insider-trading-news/airbnb-cso-blecharczyk-sells-504k-in-stock-93CH-4872228?ampMode=1
+2026-08-22 09:16:09,831 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMipwFBVV95cUxNdnZ0bm5qSWwxV2JZYTdMQmt3eGFHaVdpVzV3UDNpbFZDM2ZTS0dWTk9vbkNUcml0ZVdzNWo3V3pYbkRtWkNJTllBR3h5YWRuRVlIS2VSYmxjbE1GS1hGTzVyU3h1NjY4S0Y2cnVUUDNDd3cybFg1X1ZhUkxaSHdqX2VWRG1xZ0dNZDlnY01pNWF0Z0N4NkNfRVlkanlxUjNSMFZKNzhfTQ?oc=5 -> https://www.stocktitan.net/sec-filings/ABNB/form-4-airbnb-inc-insider-trading-activity-cf25464a60b8.html
+2026-08-22 09:16:09,899 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMidkFVX3lxTE0tenJJU19aOXBYWnRMSkpWcFYzdTlYRmpyR0RHRDBKMmlaeHlySmJ6T1FLZU03SWNYS3NfMkU4aE5uREllUUNnOF9BQ3lPT0RUYnYydzVkdjUwek8zNWtSODVBLTFvdmdCRkd5cTZvUGVEX1J4QVE?oc=5 -> https://finance.biggo.com/news/f00c99db-87ba-4405-9519-f174cfb3f74d
+2026-08-22 09:16:09,932 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMijAFBVV95cUxPb2Y2VVpaeEJkdEs1UmhrMllwcWctZTZYUnFFUFFHLTFZTm1CYXJQOG1FU215T2tGb3g2eUdmNXVpeHFzQzI5ZDdDelRfNTEwbEk4dUFGZV9HanBMekhDa3hsTHlVWnNQOHlQWE1ha09vaVVqWm9DdUMxSkFEUURoMV93WmpnWm9vWXpESw?oc=5 -> https://kygo.com/one-colorado-city-named-a-top-10-fall-getaway-in-america-by-airbnb/
+2026-08-22 09:16:09,993 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMif0FVX3lxTE5hVldyMnc5Ykxib0RmV3l1RzFOempza2xtSzQ5WkZCOERma3dkM0JPRXhWYS1lbDM1TnpfN2xUa0J0aTU5TlJJck9kb3JvUXpaNFBfalJXdzI3dnhsT2ZsMm1TZkZvMWt0R25SUjJDZFVyZWZreGF0cVpzS0w5bWs?oc=5 -> https://www.phocuswire.com/expedia-group-cuts-vp-svp-product-technology-ai
+2026-08-22 09:16:10,012 - WARNING - Failed to download article page (403): https://m.investing.com/news/insider-trading-news/airbnb-cso-blecharczyk-sells-504k-in-stock-93CH-4872228?ampMode=1
+2026-08-22 09:16:10,022 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiswFBVV95cUxPUk1OXzJnMW9qRnExRURGTWRha3hqUTktR2FseVlfc2JacF8wdm1sYUN6SmtwdHVNSF9jREszdi1iT1dOWFFBOHVEcGl5V05BTmlhdEtrdTJSM3NQSjRjcmFua0RRVm1MRTYtV09RZXJBVDRiSGlWTU9DNE82Z2ZkVkVRcnV0dFVINHR4R3BFWDU2UFB2T2d1Y09mbGNlcU5iZmxqa18zcVo3UzZEc050R0VhTQ?oc=5 -> https://www.marketwatch.com/data-news/airbnb-inc-cl-a-stock-rises-friday-outperforms-market-c2d4d404-26ce60ec62b6
+2026-08-22 09:16:10,033 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ2RmQl9NbDlWN3hvVlJEU0FZUkVmRi14cFFMeDFLLXpmOHJ5SkRXLXpmLXUyb3ladlFhY1pYNmlkY1pYU1Z4WlZEOWFpb01HU1hrdkJCT3VqT2FBaDlrWGk5MHhZOVBPN1IyMUlwUWdRRFp1QUJkUzFWQlZrRVhrZzI2SlMyTmhKZDE2N1FrTzBmcW1lTEpjWGEzdnk2QnlaUXpqTDBUNW51eHl2OHg0MU9JcGJlQQ?oc=5 -> https://www.iheart.com/podcast/24837940/episode/341853417/?embed=true&pname=newstalkzb_web&sc=podcast_episode_embed
+2026-08-22 09:16:10,051 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFFXNE9BYmpUNjVvRnpVeTJGUWdVV0JUb19FbGNsWWtid1hCQ2ViWm4xVTJBekItNmNXYi1rSWtHOFdUZ3BHc3ctaE02dTN0X1BIMjJrd2tWYTJpVnFYbEhOVkh2Z01leHRnRG5JVFRaQ2Q3bDd4T3lRRS1zdkpuOUxPWjlOOUxxRkwtMVRoNDJnM1NNVkx5TlJqcHZYQ1ZpQUVyTnZJMHQ1ZFdwaW9vbVcxRWZQcXRaYTdiT05ETUhORFZkNlFPOExLbw?oc=5 -> https://247wallst.com/cards/airbnb-just-set-a-fresh-52-week-high-at-187-30-its-second-abnb-price-extreme-01m0kbfnt6t03452hb0c2tm16k
+2026-08-22 09:16:10,110 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMimwFBVV95cUxQdGtuM3ZzSTc4c01PYUhRa2dRYS1JclV4dERMZHk5SFBQLVVZVUlVVzh1ZjVCYkZOQl94eDMyQVhQeEh0SzE2UmxuVkcyN1ZZUENZcU9Xby1NRGNQOWxXRElhMFpzVl9HYUZERDRQdnE0aTRROWVvcWlTQktFbG5CZjVEaXZsd2lMQVl2YjhIV2pLaW00M3JrcmRIdw?oc=5 -> https://finance.yahoo.com/markets/stocks/articles/jim-cramer-raves-airbnb-travel-134543792.html
+2026-08-22 09:16:10,116 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZKbmNtUGdlZlRLd2tKSWNyNnpSeUdBRHQwc0U1QkM2SEE1OEpTWU1uLU5xUWQ2ME5kVUJCakRDQjVnWVJHMEZoUDZHbWEtXzVMWGFxLUxuczFHNWFYR3FlNUgzSWxaeldvazI4eWhnUG1yMFQyVEJHNUNMcGtHYU1sYy1ubHhaRzVWZW1VZ3pqQWVlYm5zRXhaeWstTWk2T3NialdEVGs5TllQa2pDMWNydy1PaVNQUnI2MVc3TGZLZkRiRFJrR19ya0M?oc=5 -> https://www.ad-hoc-news.de/boerse/news/corporate-news/airbnb-stock-trades-near-a-fresh-52-week-high-as-insider-sale-follows/69985164
+2026-08-22 09:16:10,126 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tRl9GU2lEY1NoR0I5Nk1vXzI2QmdFblBHOW51cjE4aEJFRDBCT053SGhDRmtVclNEb3puRDFYTjl1NkR5UThXQWVPZnRZSEZjSlBicG9Id3ZLbjQ?oc=5 -> https://mshale.com/4390f58d/436c5a0d-YKdykhwNFc
+2026-08-22 09:16:10,137 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXB6OUtzcTNlLUdOeEd0Q2Jscl9xRnBHZm9jcDB5eHpPV2NIVTZsVTkyN01vX1BReGpwbVItNVdLQW1NcV9kS29pTXJjLXFPVHdqYlFSNGUzM194T1dSd0dhSEM1cUpHM2dwaFZ6eDE3ZVpVaXdhUFBWRWxrUUNrUWo3V3VVQm04R2NJZWxCTEltaC1oVFE5VXliU2JRVnUx?oc=5 -> https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-expedia-nasdaq-221947445.html
+2026-08-22 09:16:10,178 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMixAFBVV95cUxPeDVCNVRGMFlxTmZSbkRPSGxNUG5PbG5Oc2dnUzBtWVczQ0hrSUd0cDlqdzFGSGg5S0gwdkNONXhZU2J6UFRQUkR3VTU0OElrdUVaUjB5bTVxLWUyQXJ1c0p3VjdpVnY2Y21lMzN1Z3pZSTlDS1dZaW9tWWE4TFJORGREWTV4OG1lMXllZGloMHBGaUNmLUtBUmNoWERDVlRlTmtySUplN0l1bE9TUjZjYnRTaWZ2VDhyRkpNaGF6Z1dKY2tx?oc=5 -> https://www.marketscreener.com/news/argus-adjusts-price-target-on-airbnb-to-220-from-165-maintains-buy-rating-ce7858dad888fe26
+2026-08-22 09:16:10,212 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMikgFBVV95cUxNUjBYYThWcEYzWDQwT2tmYkptampXX0tMaGVqenpLR3B2cmdXMkcxSmlmMUszSkliREZ0M0oxYUdFWGdGNGZtVUF1VWJreFF6VWp1azdTTWFNb0djOG8wQjlZN1hUWnVQaDg2TS1BWXRmaEd2YkxkZ1ZpVGFxVFZFZ0JJM2plRU5VdXBZLXJyUVNlQQ?oc=5 -> https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-hits-4-high-194009767.html
+2026-08-22 09:16:10,232 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiywFBVV95cUxQaHpaSWtzV3VQTklIOVlDNzBfMXE3UkxJMG1PRDBPLUpSRF9NUFVxdUZRc0RCSFNtaV9LWmRtR3JGM1ZQVmJ1aU9vMkdDQjZGd3E4OUxtcWFFYUcxcnVsTTBMRV9uaTdMQ3Y0WnloazJuTDVRbW5Ea3h4NGZlcXF3anEyU2F2VEJkXzhxd25Uc212MDRqUkN0Z2paYjJpTHhTRnlyOHJWSVlIQjQ1czlUZGF4TGdBc2puVmpHb21mZlV6WUxwV3AwYWd6RQ?oc=5 -> https://www.marketbeat.com/instant-alerts/filing-heartland-bank-trust-co-acquires-shares-of-3991-expedia-group-inc-expe-2026-08-22/
+2026-08-22 09:16:10,249 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUdPRUhqSjlEMVQ0VWoyRDk4WVhCMVZvdC0wRnQ3WHdNcUlrTzU1YnlKQlIwWGg5WjVKUFM5c2dzNjN5QXBFYlBLNk1HclJxbXNzX09SbkVrLWwxT0M0R284UlRvU3c3eEdoeGxPQnFMWDFIYmtRZjV4akZGOWJUeG1B?oc=5 -> https://www.nomadlawyer.org/airbnb-fall-travel-trends-us-rural-retreats-2026
+2026-08-22 09:16:10,253 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMidkFVX3lxTE0xZ3A2Z193RnZNQ2FjdFEwMGxMUGVpcy1Cb0ZBX0lON2l1R0UwTTJqLUdhRzF6bDdiUnRLa2RBNmY2OHdJV05CWlZ4TFhPd2pVOHFjV3FBSFJRYUpZY1pHX01CaElLdVR6TElTZWxRVzBxS3E0SWc?oc=5 -> https://travelmole.com/news/tripadvisor-airbnb-partners-experiences
+2026-08-22 09:16:10,295 - WARNING - Failed to download article page (403): https://mshale.com/4390f58d/436c5a0d-YKdykhwNFc
+2026-08-22 09:16:10,295 - WARNING - Failed to download article page (403): https://www.phocuswire.com/expedia-group-cuts-vp-svp-product-technology-ai
+2026-08-22 09:16:10,316 - WARNING - Failed to download article page (401): https://www.marketwatch.com/data-news/airbnb-inc-cl-a-stock-rises-friday-outperforms-market-c2d4d404-26ce60ec62b6
+2026-08-22 09:16:10,324 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZEptZHpmNnhEbldrME5YZG0xRkptT0lPVEJVb1RrcXpoRklWSWJTaExGQ1h3cEcycXBDOEhLT21BWUdBZzRUdXJQNzdrNGx1MEFDUF9Ld3prUXBuY182NFBXWVM5UTJlOGRRbXh2MkVfSFdScmdBQXdiUldBY3BsbktYR21IWDFEWTlla1dGeGJLUjZqUzRSSV9RbS1sN05YX1lPRnowc0JJcHVvYjlQRmw0SDVCTFhn?oc=5 -> https://www.marketbeat.com/instant-alerts/nathan-blecharczyk-sells-2738-shares-of-airbnb-nasdaqabnb-stock-2026-08-21/
+2026-08-22 09:16:10,348 - INFO - Successfully scraped content for: https://www.iheart.com/podcast/24837940/episode/341853417/?embed=true&pname=newstalkzb_web&sc=podcast_episode_embed
+2026-08-22 09:16:10,370 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiywFBVV95cUxOV1BRc2VtMHFUTXRPX2Zqbko0T3ZXS3dReVNTdDQwX0U5ZUl0UW9kaUZRWXREcjlZT0lxQUFEelIxSU5PRXdzTzc2WnprRzFBclN6Nm01Uzl6Q09wZE1pdEJzQXUzMTFma0h3bTh6VkVWbUZ1bWVVdHRoMVBFeHl5YXd4VWpFYkU0Wi1DR3lSYzF6eXFlMVVFS1dRVjZXVVU3akp0OEZiZUM1TXBqYnF6dkhvUnItLW1IbHNHUzQzRTBZajkyallNTGNVONIB0AFBVV95cUxNbWE0WjRxUU5NckRHRURTOEhSaFNrM0lIZjA4clEwNXF3X181QVhvRjNGWGVzUnIzd1dMVXRVbjdTWFBGMTFpTnVGWWZQMHFDSTNrMlAtMWFkQkh4ZW5CYmNwQWtHa1QzV3FvZ1U3TUl0ZkM2R3pKMUdJX1Q2TlBTeFdOc1lzVm5jbENJcFJRS0ZBZXMzWkNBUHc3ZWE3dW9IOFE2TjFYWkI2cGZkSHMzNkFndGVoNmVSQVkwajBaSTliMFJRN21OYzZUV3NSTngz?oc=5 -> https://www.foxnews.com/entertainment/hayden-panettiere-boyfriends-brother-reveals-what-happened-inside-airbnb-before-actress-death
+2026-08-22 09:16:10,403 - WARNING - Failed to download article page (403): https://www.marketscreener.com/news/argus-adjusts-price-target-on-airbnb-to-220-from-165-maintains-buy-rating-ce7858dad888fe26
+2026-08-22 09:16:10,431 - WARNING - Failed to download article page (403): https://travelmole.com/news/tripadvisor-airbnb-partners-experiences
+2026-08-22 09:16:10,465 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMikgFBVV95cUxPckxRWmhqakIxQzFpRktVR0NGbnl5QVJZd1EwclFHT29pMVQ5U0o3ZGFzdTc3RWtISktRS0RWRVJEX2FhczlFSHhiLXpFcjlvd2oxeUJJN2NrbEhvZTNpb2h6MFJNUGpiZ18yTEhkS3EyVkNYRzNjamlWMS1Gbng0RndOTDNOQ2M1VXBvU1RseERXQQ?oc=5 -> https://buttondown.com/aifootprint/archive/ai-footprint-expedia-ai-squads-london-campus/
+2026-08-22 09:16:10,557 - INFO - Successfully scraped content for: https://kygo.com/one-colorado-city-named-a-top-10-fall-getaway-in-america-by-airbnb/
+2026-08-22 09:16:10,714 - INFO - Successfully scraped content for: https://247wallst.com/cards/airbnb-just-set-a-fresh-52-week-high-at-187-30-its-second-abnb-price-extreme-01m0kbfnt6t03452hb0c2tm16k
+2026-08-22 09:16:10,915 - WARNING - No content extracted for: https://www.ad-hoc-news.de/boerse/news/corporate-news/airbnb-stock-trades-near-a-fresh-52-week-high-as-insider-sale-follows/69985164
+2026-08-22 09:16:10,989 - INFO - Successfully scraped content for: https://buttondown.com/aifootprint/archive/ai-footprint-expedia-ai-squads-london-campus/
+2026-08-22 09:16:11,073 - INFO - Successfully scraped content for: https://www.stocktitan.net/sec-filings/ABNB/form-4-airbnb-inc-insider-trading-activity-cf25464a60b8.html
+2026-08-22 09:16:11,091 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOclFGNlpnbHNmd3dmRHo2QWh4YmVocDR4NDdWUVozQlVfUm1oUTJDYlFTNUhIMU5XWmtJMWs4d0RtZEYwZVBsWUhzdlE2U3hBMjh0TE9KSUxVOEktbEJLQkpnME1vdHRYQldwbWIxWnRabDNTakZYX0t2clNkd2ZoY2o0Q2RjNElZMEIxOTl5SFdxcV84MVV3SzBTN1NMYzIxRnhlZ0xfenhlLW10MmQ5T0FFS1hlZXFXeUJfWlYtMU9EYllTeW1VUS1vRVhaWTAyOC1pZVhhUW7SAd4BQVVfeXFMTi00TEdBUkJCUlF1R1JOUEJoamQtQnlJSnNwVWZ2UWJvazVkbG14S3pRVzM0UW82YU9HY0ZsaHY4cGhuUjB0LXFsLXVOeGh5LXhQbl9uRXU3VlAxQzlGUnVDYkcxNUNib1ZHNjNaZmM4V2NWTHhQYl9IaXlWcktNaTg3UTVKdDhTQm9qTVBuRmYxekljeFh1UktxSnN5WFJ2QnIxYjRtOVJ6YnVqUnljdkc3YkVqNGpIQURRcW9hZ2QzRkJSZEhPMVNKek9IVkRfWkJ4OEw0MnJTMmdxSXdn?oc=5 -> https://simplywall.st/stocks/us/consumer-services/nasdaq-expe/expedia-group/news/how-expedias-fifth-straight-beat-and-guidance-hike-will-impa
+2026-08-22 09:16:11,224 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb1EtRW4tVFRQMUhkRFlMM1dTMFNjbjM4SVRfQjZkcThzVjhQby02R2E0aWdNOEFMMXdJNjdJQUtCZ1BLQnotamZSQnBsLXd2Q3NvaExSTTY0VlJHZEwtNmtzT2dpdnRJRGtvVDl2VEVVajdkZEZVYjhPdnppRl9tMllhTmNHdUJyblBrSFlUcmxXcEdNdVFlcFRuVjFXR09Jb2M2VW05MExTcEpPRC1RTHNVakI0TVdNakF0V1NlLXFQdmxVRVBTbDZzeEdadEVURVE?oc=5 -> https://www.ad-hoc-news.de/boerse/news/corporate-news/expedia-group-stock-holds-close-to-52-week-high-as-q2-travel-demand-lifts/69983279
+2026-08-22 09:16:11,233 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZFNtellsWl9xRjE0ZXIxdlVpR1FtelpMNi1PUXJ2TzlIQzVvYmw0Snk0cWdZU0ZLQUgyS2JVUlJ5aUN3RlVsX21mdjN6aWNKX05QWUxqVVE0SnJkVS00UmtUdlZQMUZQYTlUcVdDTWpVZHhtUEJQdDl3V2NMYVdRUTZzRW4wejJfLXQ5V3ZsX2VBTTdUMTdUNDk0WGVxSlF1TXFUSk80VVdpaVVicE1tNHV0bk5WTmk2d0xCS3pwS2tXaXFMaFdPb3JiUjdvaVJpYm4tN0V1ODFTQQ?oc=5 -> https://en.travel2latam.com/news-109063-bookingcom-selects-five-accommodations-in-latin-america-where-the-bathroom-is-the-star-attraction.html
+2026-08-22 09:16:11,264 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMirwFBVV95cUxOajdYTWdPX1g4XzJIMlk3ZkFlRGUtNnJVUGExc3ZlVmcxRFB3ZV9YVEtVclM4UU92VjJCcGRINlNOX05qZGVJYnl5cUlIZ0RfZnNSSHJKaXBORTBRQW9kdTNKQ1hjYWVDWmc1R0s2M1N2TnZZWnFCMnpZb25GUVkzenRSckw0U1BFdWluTTRzaVcwa2hMRERrSWt4bDVoQ3AxTHR2Ti14OXB0U0RDXzBZ?oc=5 -> https://dataportuaria.com/en/internacional/cruises/expedia-cruises-expands-franchise-network-with-9-agreements
+2026-08-22 09:16:11,286 - INFO - Successfully scraped content for: https://finance.biggo.com/news/f00c99db-87ba-4405-9519-f174cfb3f74d
+2026-08-22 09:16:11,288 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMidkFVX3lxTE9PYjl4MWh2eTZrZjJSWGlrR0p6TUhyS0xPUlgyUEFtU2VHOGFBVGt1Z0pLMWRwT1ZvRVRhODViNU43Qm5UWFpPeldwdXkzVGgtRXZUaHBxemVTYjhqSXBkT1NEdklIbk9UdFpSVkpEWFB0VGI5Ync?oc=5 -> https://upgradedpoints.com/news/capital-one-shopping-expedia-offer/
+2026-08-22 09:16:11,307 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMisgFBVV95cUxPYWhSMmwxYkhScFhZbDdDa2RYNTVIN1o2MmFGSEVWM0ExQmEtNnRCbUhlYkgyNjRkTUc1bVNTWXFVTkpRSm1aQU50aHRkQUIwT2RyWEgxdDJITTlXQ2F4MHlmeEVaZ1FibG1seVVvWTNnTWd6Z3BsaU1BRDloZGlINEdsSlhpS3d1UnBWRF9XeEFrbncyWVFsMExjdld2eFhDelVYMTNqV1J3QTdxdkRsS0xn0gFaQVVfeXFMTlFjVk5wQnlzclNJbmVvWGFCV1lveFZxZ211alpSSm9wbzJBdDhPSGFiTC1yUjRJNEI3bG5telNoYWExS19MY3BhMFA5OHhyTmFCMFg3YWIxZzBn?oc=5 -> https://www.mlex.com/mlex/articles/2516462/booking-com-targeted-by-proposed-uk-mass-action-over-commission-rates
+2026-08-22 09:16:11,342 - INFO - Successfully scraped content for: https://www.nomadlawyer.org/airbnb-fall-travel-trends-us-rural-retreats-2026
+2026-08-22 09:16:11,400 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RY1ZOcEJ5c3JTSW5lb1hhQldZb3hWcWdtdWpaUkpvcG8yQXQ4T0hhYkwtclI0STRCN2xubXpTaGFhMUtfTGNwYTBQOTh4ck5hQjBYN2FiMWcwZ9IBWkFVX3lxTE5RY1ZOcEJ5c3JTSW5lb1hhQldZb3hWcWdtdWpaUkpvcG8yQXQ4T0hhYkwtclI0STRCN2xubXpTaGFhMUtfTGNwYTBQOTh4ck5hQjBYN2FiMWcwZw?oc=5 -> https://www.mlex.com/mlex/amp/articles/2516462
+2026-08-22 09:16:11,556 - WARNING - No content extracted for: https://en.travel2latam.com/news-109063-bookingcom-selects-five-accommodations-in-latin-america-where-the-bathroom-is-the-star-attraction.html
+2026-08-22 09:16:11,564 - INFO - Successfully scraped content for: https://www.mlex.com/mlex/amp/articles/2516462
+2026-08-22 09:16:11,613 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQN0NSMnloQV82TXgwRjh5ZXAtOGlqWW5uVXZ4RWVkTndFVEJ4Ym1RY0pOZlVxMG9BZmVhRlY4UVZabjdwNU9kVTMwVnJrS1JweXhWY3B5UDRaZWlIYUJ2Q0w3VHkzbXpQc0d0aUk5M2RmYkVmc1VNMzBqSWZxOTlENHhKRkFOMmxYdGRxR1A1ellOaGZWUkVrRGNEeXBteU1OQVlrbGRBQWFEMmdIdC14anFmenNzc09lNFdyMXlvbFhKSEdMUFJBTTZqYTBzZXYyMzdOb19HbFFxUlR3Z3JoRnJ3?oc=5 -> https://danangfantasticity.com/en/da-nang-tops-the-list-of-domestic-destinations-searched-by-vietnamese-travelers-for-the-2026-national-day-holiday/
+2026-08-22 09:16:11,757 - WARNING - No content extracted for: https://www.marketbeat.com/instant-alerts/filing-heartland-bank-trust-co-acquires-shares-of-3991-expedia-group-inc-expe-2026-08-22/
+2026-08-22 09:16:11,765 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMihAFBVV95cUxQbzJhdU1zYUwxamlrYVAzcmVJVVplVjBMeG1TSkZoNkYtYXhVV0w1TUI1dEVDTWJVaGFoenFJdWJISHBGa3EwUHBMMXVkaXo4eVFsOG9Bc2p1ZXpRM1ZrWWd5S2hNa2k1c3RnNGtmb1FSVE9oUHNyS0RFRVRlOV9qT0JoNWo?oc=5 -> https://sg.finance.yahoo.com/news/airbnb-abnb-turns-ai-customer-050857903.html
+2026-08-22 09:16:11,896 - INFO - Resolved Google News redirect via decoder: https://news.google.com/rss/articles/CBMihgFBVV95cUxNQm1xdXV3bVBZU0ZWZmFUTmhEc0hrRTQ0aFBmdkQzcnlqWC1MMWNCdTNnd2hITnhjejdrWkJIX0tZdVkwZEhIRkFaWEJwVlRLOWg0R2l2eXpBblRKd0ZRNnlORlBWdXg1ay1iR1Y2TkU5OU9kNmxzeEF4ZXlDT3pkMHY0dC1Hdw?oc=5 -> https://sg.finance.yahoo.com/news/jim-cramer-raves-airbnb-travel-134543792.html
+2026-08-22 09:16:11,923 - INFO - Successfully scraped content for: https://www.foxnews.com/entertainment/hayden-panettiere-boyfriends-brother-reveals-what-happened-inside-airbnb-before-actress-death
+2026-08-22 09:16:11,997 - INFO - Successfully scraped content for: https://finance.yahoo.com/technology/ai/articles/airbnb-abnb-turns-ai-customer-050857903.html
+2026-08-22 09:16:12,047 - INFO - Successfully scraped content for: https://dataportuaria.com/en/internacional/cruises/expedia-cruises-expands-franchise-network-with-9-agreements
+2026-08-22 09:16:12,189 - INFO - Successfully scraped content for: https://upgradedpoints.com/news/capital-one-shopping-expedia-offer/
+2026-08-22 09:16:12,233 - WARNING - No content extracted for: https://www.marketbeat.com/instant-alerts/nathan-blecharczyk-sells-2738-shares-of-airbnb-nasdaqabnb-stock-2026-08-21/
+2026-08-22 09:16:12,332 - INFO - Successfully scraped content for: https://simplywall.st/stocks/us/consumer-services/nasdaq-expe/expedia-group/news/how-expedias-fifth-straight-beat-and-guidance-hike-will-impa
+2026-08-22 09:16:12,415 - INFO - Successfully scraped content for: https://www.mlex.com/mlex/articles/2516462/booking-com-targeted-by-proposed-uk-mass-action-over-commission-rates
+2026-08-22 09:16:12,442 - INFO - Successfully scraped content for: https://www.ad-hoc-news.de/boerse/news/corporate-news/expedia-group-stock-holds-close-to-52-week-high-as-q2-travel-demand-lifts/69983279
+2026-08-22 09:16:12,524 - INFO - Successfully scraped content for: https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-hits-4-high-194009767.html
+2026-08-22 09:16:12,568 - INFO - Successfully scraped content for: https://finance.yahoo.com/markets/stocks/articles/jim-cramer-raves-airbnb-travel-134543792.html
+2026-08-22 09:16:12,601 - INFO - Successfully scraped content for: https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-expedia-nasdaq-221947445.html
+2026-08-22 09:16:12,715 - INFO - Successfully scraped content for: https://sg.finance.yahoo.com/news/jim-cramer-raves-airbnb-travel-134543792.html
+2026-08-22 09:16:12,735 - INFO - Successfully scraped content for: https://sg.finance.yahoo.com/news/airbnb-abnb-turns-ai-customer-050857903.html
+2026-08-22 09:16:13,233 - INFO - Successfully scraped content for: https://danangfantasticity.com/en/da-nang-tops-the-list-of-domestic-destinations-searched-by-vietnamese-travelers-for-the-2026-national-day-holiday/
+2026-08-22 09:16:13,936 - INFO - Enriching articles with AI intelligence classification...
+2026-08-22 09:16:14,659 - INFO - Successfully appended 31 articles to database: /home/runner/work/miraee-news-scraper/miraee-news-scraper/output/raw_news_database_Abhee.xlsx
+2026-08-22 09:16:14,659 - INFO - =========================================
+2026-08-22 09:16:14,659 - INFO - Pipeline Run Summary:
+2026-08-22 09:16:14,659 - INFO -  - Static Feeds: 15, Dynamic Feeds: 54
+2026-08-22 09:16:14,659 - INFO -  - Total Raw Articles Found: 184
+2026-08-22 09:16:14,659 - INFO -  - 24-Hour Filtered Articles: 175
+2026-08-22 09:16:14,659 - INFO -  - Articles Matched Competitors: 63
+2026-08-22 09:16:14,659 - INFO -  - Articles Skipped (Duplicates): 32
+2026-08-22 09:16:14,659 - INFO -  - Articles Enriched & Appended: 31
+2026-08-22 09:16:14,659 - INFO - Pipeline completed successfully.
+2026-08-22 09:16:14,659 - INFO - =========================================
